@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol SKPopMenuButtonDelegate{
+class SKPopMenuButtonDelegate{
     
 }

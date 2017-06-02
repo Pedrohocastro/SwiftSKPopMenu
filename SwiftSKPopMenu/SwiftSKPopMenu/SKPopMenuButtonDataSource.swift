@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import SpriteKit
 
-protocol SKPopMenuButtonDataSource {
-    
+@objc protocol SKPopMenuButtonDataSource {
+    @objc func action(isOpen: Bool, scale: CGSize)
 }
