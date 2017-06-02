@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		482A60931EE1E601009B8417 /* SwiftSKPopMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 482A60911EE1E601009B8417 /* SwiftSKPopMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DC0CDE1EE1E8B5004A86A0 /* SKPopMenuButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0CDD1EE1E8B5004A86A0 /* SKPopMenuButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		482A608E1EE1E601009B8417 /* SwiftSKPopMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSKPopMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		482A60911EE1E601009B8417 /* SwiftSKPopMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftSKPopMenu.h; sourceTree = "<group>"; };
 		482A60921EE1E601009B8417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DC0CDD1EE1E8B5004A86A0 /* SKPopMenuButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKPopMenuButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				482A60911EE1E601009B8417 /* SwiftSKPopMenu.h */,
 				482A60921EE1E601009B8417 /* Info.plist */,
+				48DC0CDD1EE1E8B5004A86A0 /* SKPopMenuButtonDelegate.swift */,
 			);
 			path = SwiftSKPopMenu;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 					482A608D1EE1E601009B8417 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 9QUZLTLDFZ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DC0CDE1EE1E8B5004A86A0 /* SKPopMenuButtonDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		482A60971EE1E601009B8417 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9QUZLTLDFZ;
@@ -254,6 +260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.bepiducb.336.SwiftSKPopMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +268,7 @@
 		482A60981EE1E601009B8417 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9QUZLTLDFZ;
@@ -296,6 +304,7 @@
 				482A60981EE1E601009B8417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
